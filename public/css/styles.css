@@ -1,31 +1,32 @@
 body {
-    display: block;
-    margin-top: 100px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 200px;
-    text-align: justify;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 150px 250px;
 }
 
-h1{
-    color:crimson;
+.destaque {
+    width: 100%;
 }
 
-img {
-    display: block;
-    margin: 20px auto;
+h1 {
+    color: #ec183f;
+    font-weight:bolder;
 }
 
-footer img {
-    display: inline-block;
-    width: 40px;
-    margin: 10px;
-    align-items: center;
+#lista {
+    font-style: italic;
 }
 
 footer {
-    height: 1px;
-    background-color: rgb(173, 173, 173);  
-    margin: 100px auto;
+    border-top: solid 1px #ccc;
     text-align: center;
+    padding: 10px;
+} 
+
+footer a {
+    text-decoration: none;
 }
+
+footer > a > img {
+    width: 32px;
+}
+
